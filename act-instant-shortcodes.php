@@ -6,6 +6,7 @@ Description:  Instantly output a shortcode when a template is loaded into a post
 Version: 1.0.0
 Author: CGD Inc.
 Author URI: http://cgd.io
+GitHub Plugin URI: https://github.com/clifgriffin/ACT-Instant-Shortcodes
 
 ------------------------------------------------------------------------
 Copyright 2013-2016 Clif Griffin Development Inc.
