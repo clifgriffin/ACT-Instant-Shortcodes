@@ -3,7 +3,7 @@
 Plugin Name: ACT Instant Shortcodes
 Plugin URI: http://cgd.io/
 Description:  Instantly output a shortcode when a template is loaded into a post by changing its wrapper. Example: Change [foo] to *|foo|*, to run on template load.
-Version: 1.0.0
+Version: 1.0.1
 Author: CGD Inc.
 Author URI: http://cgd.io
 GitHub Plugin URI: https://github.com/clifgriffin/ACT-Instant-Shortcodes
@@ -67,7 +67,8 @@ class ACT_Instant_Shortcodes {
 			<th scope="row" valign="top">Instant Shortcodes</th>
 			<td>
 				<p><img style="border: 2px #ccc solid" src="<?php echo plugins_url('assets/example.png', __FILE__); ?>" /></p>
-				<p style="margin-bottom: 20px;"><em>ACT Instant Shortcodes</em> does not have any settings. To make a shortcode instant, change its wrapper from [] to *||*.</p>
+				<p style="margin-bottom: 20px;"><em>ACT Instant Shortcodes</em> does not have any settings. An instant shortcode is one that is processed immediately upon loading a template.<br /> By contrast, a shortcode is normally processed when a post is viewed.</p>
+				<p>To make a shortcode instant, change its wrapper from [] to *||*.</p>
 				<p style="margin-bottom: 20px;"><b>Example:</b> <br /> To make the gallery shortcode instant, you would change [gallery] to *|gallery|*. </p>
 				<p>This also applies to shortcodes with options. [foo bar="true"] becomes *|foo bar="true"|*.</p>
 			</td>
