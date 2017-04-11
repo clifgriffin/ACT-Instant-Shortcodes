@@ -3,10 +3,10 @@
 Plugin Name: ACT Instant Shortcodes
 Plugin URI: http://cgd.io/
 Description:  Instantly output a shortcode when a template is loaded into a post by changing its wrapper. Example: Change [foo] to *|foo|*, to run on template load.
-Version: 1.0.1
+Version: 1.0.2
 Author: CGD Inc.
 Author URI: http://cgd.io
-GitHub Plugin URI: https://github.com/clifgriffin/ACT-Instant-Shortcodes
+GitHub URI:: https://github.com/clifgriffin/ACT-Instant-Shortcodes
 
 ------------------------------------------------------------------------
 Copyright 2013-2016 Clif Griffin Development Inc.
