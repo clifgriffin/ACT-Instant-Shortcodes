@@ -32,8 +32,6 @@ class ACT_Instant_Shortcodes {
 	}
 
 	function init() {
-		global $AdvancedContentTemplates;
-
 		// Filter stub post before it's saved
 		add_filter('act_load_template', array($this, 'load_template_shortcodes') );
 
